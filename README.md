@@ -1,5 +1,5 @@
-Training:
+#Training:
 python train.py
 
-Inference:
+#Inference:
 python test.py

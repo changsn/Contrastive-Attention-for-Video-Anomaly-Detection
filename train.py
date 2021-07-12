@@ -9,8 +9,8 @@ import argparse
 from test import test
 import pdb
 
-train_feature_code_path = '/home/changshuning/Code/Anomaly_Detection_2/li_feature/train'
-test_feature_code_path = '/home/changshuning/Code/Anomaly_Detection_2/li_feature/test'
+train_feature_code_path = './data/train'
+test_feature_code_path = './data/test'
 
 
 def parse_args():

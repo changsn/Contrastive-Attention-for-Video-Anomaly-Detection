@@ -1,1 +1,5 @@
-# Contrastive-Attention-for-Video-Anomaly-Detection
+Training:
+python train.py
+
+Inference:
+python test.py

@@ -86,10 +86,3 @@ class InputData(object):
                 labels.append([1.])
             dims.append(data[i]['num'])
         return feature, np.array(labels, dtype=np.float32), np.array(dims, dtype=np.float32)
-
-
-if __name__ == '__main__':
-    c = InputData('/home/changshuning/Desktop/a', shuffle=False)
-    for i in range(2):
-        a = c.next_batch(2)
-        print(a[1])

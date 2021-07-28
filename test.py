@@ -57,8 +57,8 @@ def test(args):
         plt.clf()
         plt.close()
 
-    gts = np.load('/home/changshuning/Code/Anomaly_Detection_2/li_feature/gts.npy',allow_pickle=True)
-    test_features = test_data = input_data.InputData('/home/changshuning/Code/Anomaly_Detection_2/li_feature/test', shuffle=False)
+    gts = np.load('./gts.npy',allow_pickle=True)
+    test_features = test_data = input_data.InputData('./data/test', shuffle=False)
     net = model.Network(args).to('cuda')
     net.eval()
     best_auc = 0

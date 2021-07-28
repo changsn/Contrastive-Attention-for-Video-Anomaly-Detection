@@ -6,7 +6,11 @@
 
 ## Usage
 Training:
+'''shell
 python train.py
+'''
 
 Inference:
+'''shell
 python test.py
+'''

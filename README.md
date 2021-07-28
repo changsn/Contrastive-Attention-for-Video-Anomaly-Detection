@@ -9,9 +9,11 @@
 **Requirements**
 - Python >= 3.5
 - [Pytorch](https://pytorch.org/) >= 0.4.0
-- [OpenCV](https://opencv.org/)
-- [Numpy]
-- [Pickle]
+- [matplotlib](https://matplotlib.org/)
+- Numpy
+- Pickle
+- Scipy
+- Sklearn
 
 ## Usage
 Training:

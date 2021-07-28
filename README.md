@@ -6,11 +6,11 @@
 
 ## Usage
 Training:
-'''shell
+```shell
 python train.py
-'''
+```
 
 Inference:
-'''shell
+```shell
 python test.py
-'''
+```
